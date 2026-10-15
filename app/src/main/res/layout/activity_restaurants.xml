@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvTitleRestaurants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/restaurants"
+            android:textAlignment="center"
+            android:textColor="#E20E0E"
+            android:textSize="34sp"
+            android:textStyle="bold|italic" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/purple_700" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivMedalGold"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/medal_gold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="18dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivRestaurant1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/restaurants"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="@id/ivIcon"
+                    app:layout_constraintStart_toStartOf="@id/ivIcon"
+                    app:layout_constraintTop_toTopOf="@id/ivIcon"
+                    app:srcCompat="@drawable/r_bochinche" />
+
+                <TextView
+                    android:id="@+id/tvRestaurant1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/r_bochinche"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvRPBochinche"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/rp_bochinche"
+                    android:textAlignment="center"
+                    android:textColor="#FF9800"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivMedalSilver"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/medal_silver" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="18dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivRestaurant2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/r_mabo_fish"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="@id/ivIcon"
+                    app:layout_constraintStart_toStartOf="@id/ivIcon"
+                    app:layout_constraintTop_toTopOf="@id/ivIcon"
+                    app:srcCompat="@drawable/r_mabo_fish" />
+
+                <TextView
+                    android:id="@+id/tvRestaurant2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/r_mabo_fish"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvPriceHCristina3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/rp_mabo_fish"
+                    android:textAlignment="center"
+                    android:textColor="#FF9800"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivMedalCopper"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/medal_copper" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="18dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivRestaurant3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/r_el_almacen"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="@id/ivIcon"
+                    app:layout_constraintStart_toStartOf="@id/ivIcon"
+                    app:layout_constraintTop_toTopOf="@id/ivIcon"
+                    app:srcCompat="@drawable/r_el_almacen" />
+
+                <TextView
+                    android:id="@+id/tvRestaurant3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/r_el_almacen"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/tvPriceHCristina4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/rp_el_almacen"
+                    android:textAlignment="center"
+                    android:textColor="#FF9800"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btVolverR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/volver" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

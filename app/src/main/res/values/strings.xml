@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">PalmasCanaria</string>
+
+    <string name="volver">Volver</string>
+    <string name="message_back">Volviendo a pantalla inicial</string>
+
+    <string name="go_to_hotels">Accediendo a hoteles</string>
+    <string name="go_to_restaurants">Accediendo a restaurantes</string>
+    <string name="go_to_monuments">Accediendo a monumentos</string>
+    <string name="go_to_museums">Accediendo a museos</string>
+
+    <string name="title">🌴 Las Palmas de Gran Canaria 🌴</string>
+    <string name="monuments">Monumentos</string>
+    <string name="restaurants">Restaurantes</string>
+    <string name="hotels">Hoteles</string>
+    <string name="museums">Museos</string>
+
+    <string name="r_bochinche">Bochinche El Chato</string>
+    <string name="r_el_almacen">El Almacén</string>
+    <string name="r_mabo_fish">Mabo Fish</string>
+
+    <string name="h_hotel_cristina">Hotel Cristina</string>
+    <string name="h_nh_imperial">NH Imperial</string>
+    <string name="h_occidental">Occidental</string>
+
+    <string name="m_museum_canario">Museo Canario</string>
+    <string name="m_house_colon">Casa Colón</string>
+    <string name="m_museum_elder">Museo Elder</string>
+
+    <string name="x_basilica_del_pino">Basílica del Pino</string>
+    <string name="x_church_san_lucas">Iglesia San Juan Arucas</string>
+    <string name="x_lighthouse_maspalomas">Faro Maspalomas</string>
+    <string name="x_castle_of_light">Castillo de la Luz</string>
+
+    <string name="hp_hotel_cristina">Desde 200€ a 440€</string>
+    <string name="hp_nh_imperial">Desde 110€ a 310€</string>
+    <string name="hp_occidental">Desde 90€ a 160€</string>
+
+    <string name="rp_bochinche">10€ - 20€ por comensal</string>
+    <string name="rp_el_almacen">20€ - 30€ por comensal</string>
+    <string name="rp_mabo_fish">20€ - 60€ por comensal</string>
+
+    <string name="xi_castle_of_light">La fortaleza más antigua de Canarias, erigida a finales del siglo XV como defensa contra piratas holandeses e ingleses.
+        En la actualidad es la sede de la Fundación de Arte y Pensamiento Martín Chirino; alberga una muestra permanente de 25 piezas únicas del reconocido escultor isleño.</string>
+
+    <string name="xi_basilica_del_pino">Uno de los monumentos en Gran Canarias por excelencia se halla en Teror, lugar de peregrinación de todos los grancanarios,
+        puesto que el municipio acoge en su Basílica y Santuario Mariano de Nuestra Señora del Pino a la patrona de la Diócesis de Canarias.</string>
+
+    <string name="xi_church_san_lucas">Fue esculpida íntegramente en piedra de Arucas por los maestros labrantes de la localidad y es de estilo neogótico.
+        Posee un importante tesoro artístico, con esculturas de origen italiano, pinturas de las escuelas flamenca y andaluza y hermosas cristaleras.</string>
+
+    <string name="xi_lighthouse_maspalomas">La decisión de levantarlo se tomó en el lejano 1861, cuyas obras se prolongaron 28 largos años. En aquel momento el lugar era un paraje deshabitado, incomunicado del resto de la isla.
+        Así, para su construcción, de 55 metros de altura, se habilitó un muelle para descargar los materiales que sólo podían llegar por mar.</string>
+
+    <string name="mi_museum_canario">El Museo Canario nació en 1879 gracias a la iniciativa de un grupo de intelectuales de la sociedad grancanaria, liderados por el Dr. Gregorio Chil y Naranjo y el historiador Agustín Millares Torres.
+        La motivación principal fue conservar y divulgar los vestigios arqueológicos y culturales de los antiguos habitantes de Gran Canaria, a la vez que fomentar el desarrollo científico, literario y artístico en la isla.</string>
+
+    <string name="mi_casa_colon">La Casa de Colón es una de las instituciones culturales más emblemáticas de Canarias. Inaugurada en 1951, ocupa un conjunto arquitectónico que incluye la antigua Casa del Gobernador, vinculada al paso de Cristóbal Colón por la isla en 1492.
+        Su arquitectura, de estilo neocanario, combina elementos originales del siglo XVI con aportaciones posteriores, articuladas en torno a patios de estilo tradicional canario.</string>
+
+    <string name="mi_museum_elder">Distribuido en cuatro plantas, el museo ofrece una experiencia interactiva y dinámica con simuladores, cine 3D, planetario, talleres y exposiciones que abarcan disciplinas como la física, la biología, la astronomía, las matemáticas, la tecnología o la historia de la ciencia.
+        Con el lema “Prohibido no tocar”, el Elder convierte el conocimiento en algo cercano y participativo para todos los públicos.</string>
+</resources>

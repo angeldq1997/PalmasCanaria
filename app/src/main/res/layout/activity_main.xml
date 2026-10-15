@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="230dp"
+            android:layout_height="180dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/gran_canaria_icon" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="#3F51B5"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="18dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivRestaurants"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/restaurants"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="@id/ivIcon"
+                    app:layout_constraintStart_toStartOf="@id/ivIcon"
+                    app:layout_constraintTop_toTopOf="@id/ivIcon"
+                    app:srcCompat="@drawable/restaurantes" />
+
+                <TextView
+                    android:id="@+id/tvRestaurants"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/restaurants"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/ivMonuments"
+                    android:layout_width="180dp"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/monuments"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="@id/ivIcon"
+                    app:layout_constraintStart_toStartOf="@id/ivIcon"
+                    app:layout_constraintTop_toTopOf="@id/ivIcon"
+                    app:srcCompat="@drawable/monumentos" />
+
+                <TextView
+                    android:id="@+id/tvMonuments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/monuments"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivHotels"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/hotels"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="@id/ivIcon"
+                    app:layout_constraintStart_toStartOf="@id/ivIcon"
+                    app:layout_constraintTop_toTopOf="@id/ivIcon"
+                    app:srcCompat="@drawable/hoteles" />
+
+                <TextView
+                    android:id="@+id/tvHotels"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/hotels"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+                <ImageView
+                    android:id="@+id/ivMuseums"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:contentDescription="@string/museums"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="@id/ivIcon"
+                    app:layout_constraintStart_toStartOf="@id/ivIcon"
+                    app:layout_constraintTop_toTopOf="@id/ivIcon"
+                    app:srcCompat="@drawable/museos" />
+
+                <TextView
+                    android:id="@+id/tvMuseums"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/museums"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

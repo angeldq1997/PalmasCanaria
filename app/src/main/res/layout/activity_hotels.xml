@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotelsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvHCristina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/h_hotel_cristina"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/ivHCristina"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/h_hotel_cristina"
+                app:srcCompat="@drawable/h_hotel_cristina" />
+
+            <RatingBar
+                android:id="@+id/ratingBarHC"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:numStars="5"
+                android:rating="4"
+                android:isIndicator="false"/>
+
+            <TextView
+                android:id="@+id/tvPriceHCristina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hp_hotel_cristina"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvHOccidental"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/h_occidental"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/ivHOccidental"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/h_occidental"
+                app:srcCompat="@drawable/h_occidental" />
+
+            <RatingBar
+                android:id="@+id/ratingBarO"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="3.5" />
+
+            <TextView
+                android:id="@+id/tvPriceNHImprerial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hp_nh_imperial"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvNHImperial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/h_nh_imperial"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/ivNHImperial"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/h_nh_imperial"
+                app:srcCompat="@drawable/h_nh_imperial" />
+
+            <RatingBar
+                android:id="@+id/ratingBarNH"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="3" />
+
+            <TextView
+                android:id="@+id/tvPriceOccidental"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hp_occidental"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btVolverH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/volver" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
